@@ -1,0 +1,119 @@
+@media (max-width: 768px) {
+
+    // Base
+
+    .header, .main, .middle, .bottom, .bottom__empty, .footer {
+        width: 480px;
+    }
+
+    // Navigation
+
+    .nav {
+        display: none;
+    }
+
+    .header {
+        &__menu {
+            display: block;
+        }
+
+        &__item {
+            padding-left: 25px;
+        }
+    }
+
+    // Displae None/Block
+
+    .display-none {
+        display: none;
+    }
+
+    .display-none-m {
+        display: inherit;
+    }
+
+
+    // Middle Section
+
+    .middle {
+        height: 989px;
+
+        &__header2 {
+            margin-top: 65px;
+        }
+
+        &__paragraphs {
+            flex-direction: column;
+            width: 445px;
+            margin-top: 28px;
+        }
+
+        &__paragraph1 {
+            width: 445px;
+            height: 183px;
+        }
+
+        &__paragraph2 {
+            width: 430px;
+            margin-top: 24px;
+            height: 129px;
+        }
+
+        &__button {
+            margin-top: 24px;
+            height: 38px;
+        }
+    }
+
+    // Bottom Section
+
+    .bottom {
+        height: 637px;
+        background-image: url(./assets/mobile-IMG_1334_72dpi_RGB_\ 1.png);
+
+        &__empty {
+            height: 637px;
+        }
+
+        &__button {
+            margin-top: 91px;
+            width: 100px;
+            height: 100px;
+            font-size: 50px;
+            padding-left: 15px;
+        }
+
+        &__header3 {
+            margin-top: 82px;
+            width: 396px;
+        }
+    }
+
+    // Footer Section
+
+    .footer {
+        height: 290px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+
+        &__division {
+            margin: 0;
+            margin-top: 58px;
+        }
+
+        &__address {
+            margin-top: 29px;
+            text-align: center; 
+        }
+
+        &__link {
+            margin-top: 18px;
+        }
+
+        &__paragraph {
+            margin-top: 19px;
+        }
+    }
+}

@@ -1,0 +1,38 @@
+// Desctop Animations
+
+.main {
+    background-image: url(./assets/d-adnimation/Frame_32.svg), url(./assets/d-adnimation/Frame_30.png);
+    background-position-x: -20px, center;
+    background-position-y: -20px, center;
+    animation: m-move2 4s infinite alternate;
+}
+
+@keyframes m-move2 {
+
+    100% {
+        background-image:  url(./assets/d-adnimation/Frame_32.svg), url(./assets/d-adnimation/Frame_31.png);
+        background-position: center, center;
+    }
+}
+
+// Mobile Animations
+
+@media (max-width: 768px) {
+    .main {
+        background-image: url(./assets/m-animation/Frame_28.svg), url(./assets/m-animation/Frame_24.png);
+        background-position-x: -15px, center;
+        background-position-y: -15px, center;
+        animation: m-move 4s infinite alternate;
+    }
+
+    @keyframes m-move {
+
+        100% {
+            background-image:  url(./assets/m-animation/Frame_28.svg), url(./assets/m-animation/Frame_29.png);
+            background-position: center, center;
+        }
+
+    }
+}
+
+

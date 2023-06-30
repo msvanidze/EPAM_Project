@@ -1,0 +1,26 @@
+// Reset CSS
+
+@import './reset';
+
+// General styles
+
+@import './base';
+
+// Variables
+
+@import './variables';
+
+// Modules
+@import './moduls/navigation';
+@import './moduls/main';
+@import './moduls/middle';
+@import './moduls/bottom';
+@import './moduls/footer';
+
+// Animations
+
+@import './animation';
+
+// Responsive
+
+@import './mobile';
